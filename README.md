@@ -13,19 +13,19 @@ I'll keep expending the list, and if there's interest may do a few deep dives to
 
 ## List
 
-- [`Run doomfire`](runtime/gfxcat_doomfire.html) [see code](doomfire/doomfire.c)
+- [`Run doomfire`](https://htmlpreview.github.io/?https://github.com/sylefeb/gfxcat/blob/main/runtime/gfxcat_doomfire.html) [see code](doomfire/doomfire.c)
 
-- [`Run msponge`](runtime/gfxcat_msponge.html) [see code](msponge/msponge.c)
+- [`Run msponge`](https://htmlpreview.github.io/?https://github.com/sylefeb/gfxcat/blob/main/runtime/gfxcat_msponge.html) [see code](msponge/msponge.c)
 
-- [`Run lotus`](runtime/gfxcat_lotus.html) [see code](lotus/lotus.c)
+- [`Run lotus`](https://htmlpreview.github.io/?https://github.com/sylefeb/gfxcat/blob/main/runtime/gfxcat_lotus.html) [see code](lotus/lotus.c)
 
-- [`Run starfield`](runtime/gfxcat_starfield.html) [see code](starfield/starfield.c)
+- [`Run starfield`](https://htmlpreview.github.io/?https://github.com/sylefeb/gfxcat/blob/main/runtime/gfxcat_starfield.html) [see code](starfield/starfield.c)
 
-- [`Run raytrace`](runtime/gfxcat_raytrace.html) [see code](raytrace/raytrace.c)
+- [`Run raytrace`](https://htmlpreview.github.io/?https://github.com/sylefeb/gfxcat/blob/main/runtime/gfxcat_raytrace.html) [see code](raytrace/raytrace.c)
 
-- [`Run julia`](runtime/gfxcat_julia.html) [see code](julia/julia.c)
+- [`Run julia`](https://htmlpreview.github.io/?https://github.com/sylefeb/gfxcat/blob/main/runtime/gfxcat_julia.html) [see code](julia/julia.c)
 
-- [`Run flyover3d`](runtime/gfxcat_flyover3d.html) [see code](flyover3d/flyover3d.c)
+- [`Run flyover3d`](https://htmlpreview.github.io/?https://github.com/sylefeb/gfxcat/blob/main/runtime/gfxcat_flyover3d.html) [see code](flyover3d/flyover3d.c)
 
 ## Credits
 
