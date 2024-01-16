@@ -1,0 +1,17 @@
+*.sh text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.htm text eol=lf
+*.png binary
+*.wasm binary
+*.raw binary
+*.rawraw binary
+.gitattributes text eol=lf
