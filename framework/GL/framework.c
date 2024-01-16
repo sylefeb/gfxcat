@@ -33,7 +33,6 @@ static GLFWwindow*   g_Window = NULL;
 
 void framework_loop_step()
 {
-  // glfwSwapInterval(0);
   int width, height;
   glfwGetFramebufferSize(g_Window, &width, &height);
   glViewport(0, 0, width, height);
@@ -92,6 +91,7 @@ void framework_loop(void (*f_render)())
   glLoadIdentity();
   // enter main loop
 #ifndef EMSCRIPTEN
+  glfwSwapInterval(1);
   while (!glfwWindowShouldClose(g_Window)) {
     framework_loop_step();
   }
