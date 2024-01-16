@@ -43,7 +43,7 @@ void draw_tunnel()
   for (int i=0 ; i < 10 ; ++i) { shadow[i] = 0; }
   // bayer matrix for overlay transparency
   {
-    const unsigned int *bayer_ptr = bayer_8x8;
+    const int *bayer_ptr = bayer_8x8;
     for (int j=0 ; j < 8 ; ++j) {
       unsigned int mask = 0;
       for (int i=0 ; i < 32 ; ++i) {
@@ -68,7 +68,7 @@ void draw_tunnel()
 
   for (int j=0 ; j < 200 ; j++) {
     for (int i=0 ; i < 10 ; ++i) {
-      unsigned int *bayer_ptr      = bayer_8x8 + ((j&7)<<5);
+      int         *bayer_ptr      = bayer_8x8 + ((j&7)<<5);
       unsigned int pixels = 0;
       unsigned int pix    = 1;
       unsigned int t,d,uv0,uv1,drk,ba0,ba1,cl0,cl1;
