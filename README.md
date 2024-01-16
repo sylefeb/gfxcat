@@ -8,7 +8,7 @@ These are fun and compact graphics effects that I explored as I was developing
 implemented directly in hardware, or as risc-v demos for
 [my little CPU cores and SOCs](https://github.com/sylefeb/Silice/tree/master/projects/ice-v).
 
-This repository contains C version using a minimalistic framework. They should
+This repository contains C versions using a minimalistic framework. They should
 be very easy to port to run on your own SOC, to port to your own language, or to
 revisit in hardware (which was the most fun for me :) ).
 
