@@ -3,13 +3,20 @@
 
 ![thumbnails](thumbnails.png)
 
-These are fun graphics effects that I explored as I was developing [Silice](https://github.com/sylefeb/Silice/tree/master/projects). Most were implemented directly in hardware, or as risc-v demos for [my little CPU cores and SOCs](https://github.com/sylefeb/Silice/tree/master/projects/ice-v).
+These are fun and compact graphics effects that I explored as I was developing
+[Silice](https://github.com/sylefeb/Silice/tree/master/projects). Most were
+implemented directly in hardware, or as risc-v demos for
+[my little CPU cores and SOCs](https://github.com/sylefeb/Silice/tree/master/projects/ice-v).
 
-This repository contains C version using a minimalistic framework. They should be very easy to port to run on your own SOC, to port to your own language, or to revisit in hardware (which was the most fun for me :) ).
+This repository contains C version using a minimalistic framework. They should
+be very easy to port to run on your own SOC, to port to your own language, or to
+revisit in hardware (which was the most fun for me :) ).
 
-I list below each effect. __You can try them from your browser__, as they can all be compiled with [Emscripten](https://emscripten.org/).
+I list below each effect. __You can try them from your browser__, as they can
+all be compiled with [Emscripten](https://emscripten.org/).
 
-I'll keep expending the list, and if there's interest may do a few deep dives to explain some of them.
+I'll keep expending the list, and if there's interest may do a few deep dives to
+explain some of them.
 
 ## List
 
@@ -31,4 +38,5 @@ I'll keep expending the list, and if there's interest may do a few deep dives to
 
 ## Credits
 
-I made all of these effects based on my (not so fresh) memories for my demoscene days, but all are classics and have been shown many times before!
+I made all of these effects based on my (not so fresh) memories for my demoscene
+days, but all are classics and have been shown many times before!
