@@ -63,7 +63,7 @@ void framework_loop(void (*f_render)())
     fprintf(stderr,"ERROR: cannot initialize graphics\n");
     return;
   }
-  glfwWindowHint(GLFW_DECORATED,GLFW_FALSE);
+  // glfwWindowHint(GLFW_DECORATED,GLFW_FALSE);
   g_Window = glfwCreateWindow(framework_width()*2,
                               framework_height()*2,
                               "GFXCat framework", NULL, NULL);
