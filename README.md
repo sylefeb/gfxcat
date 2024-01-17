@@ -38,5 +38,5 @@ explain some of them.
 
 ## Credits
 
-I made all of these effects based on my (not so fresh) memories for my demoscene
+I made all of these effects based on my (not so fresh) memories from my demoscene
 days, but all are classics and have been shown many times before!
