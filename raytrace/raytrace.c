@@ -9,11 +9,13 @@ A small fixed point raytracer, @sylefeb
 #include "framework.h"
 #include "sine_table.h"
 #include <stdint.h>
+#include <stdio.h>
 /* -------------------------------------------------------- */
 int g_time = 280;
 /* -------------------------------------------------------- */
 typedef  unsigned char t_pixel;
 typedef  int32_t       stdi;
+typedef  uint32_t      stdu;
 typedef  int64_t       wide;
 /* -------------------------------------------------------- */
 #define  FP       (16)
@@ -25,16 +27,16 @@ stdi     fxdiv(wide a,wide b) { if (b == 0) return (stdi)BASE_MAX; return (stdi)
 /* -------------------------------------------------------- */
 // Square root code from https://github.com/chmike/fpsqrt/blob/master/fpsqrt.c
 // MIT License, see https://github.com/chmike/fpsqrt/blob/master/LICENSE
-stdi sqrt_fixed(stdi v)
+inline stdi sqrt_fixed(stdi v)
 {
   if (v <= 0) { return BASE_MAX; }
-  stdi b = BASE_MAX, q = 0, r = v;
+  stdu b = BASE_MAX, q = 0, r = v;
   while (b > r) { b >>= 2; }
   while (b > 0) {
-      stdi t = q + b;
-      q >>= 1;
-      if ( r >= t ) { r -= t; q += b; }
-      b >>= 2;
+    stdu t = q + b;
+    q >>= 1;
+    if ( r >= t ) { r -= t; q += b; }
+    b >>= 2;
   }
   return q<<(stdi)(FP/2);
 }

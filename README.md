@@ -52,5 +52,5 @@ in the Silice repo.
 
 I made all of these effects based on my (not so fresh) memories from my demoscene
 days, but all are classics and have been shown many times before! Source code
-include links to clever tricks by others used in each of the demos
+includes links to clever tricks by others used in each of the demos
 (like the neat [fractal mul trick](http://cowlark.com/2018-05-26-bogomandel/index.html) and [integer sqrt](https://github.com/chmike/fpsqrt/blob/master/fpsqrt.c)).
